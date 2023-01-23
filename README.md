@@ -1,5 +1,8 @@
 # retroArch_playlist_generator
 
+## 简介
+&emsp;&emsp;为RetroArch模拟器生成rom的playlist，同时将rom重命名为英文名。
+
 ## 原理
 &emsp;&emsp;由于switch RetroArch不能很好地支持中文文件名，需要使用playlist功能来显示。具体而言需要实现两个功能，一是根据rom生成playlist，二是修改rom文件名。请在电脑上建立游戏文件夹，作为rom顶层目录，然后在该目录下按平台建立各个rom的目录。例如顶层目录是**G:/game/test/**，目录下有**fc/**，**gba/**，**ps/**，**sfc/** 等平台。本工具会按指定的rom顶层目录，读取各个文件夹作为平台名，并逐平台生成playlist文件。逐平台生成playlist时，将其下各个rom重命名为"平台名+编号"的形式。
 
@@ -16,4 +19,5 @@
 
 # enjoy ^__^
 
-# 使用本代码生成列表的rom全部自动免费，不允许卖钱。要卖钱就别用。
+# 声明
+&emsp;&emsp;使用本代码生成列表的rom全部自动免费，不允许卖钱。要卖钱就别用。使用请注明出处。
