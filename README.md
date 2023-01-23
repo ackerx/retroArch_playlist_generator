@@ -5,17 +5,17 @@
 
 ## 使用
 ### 目录组织
-将各个rom按平台组织。各个平台的rom文件夹再在放在同一个目录下。此目录就称为rom顶层文件夹。
+&emsp;&emsp;将各个rom按平台组织。各个平台的rom文件夹再在放在同一个目录下。此目录就称为rom顶层文件夹。
 之后将顶层文件夹下的各个rom文件夹直接复制到retroarch指定的rom顶层文件夹下就可以。我通常是放在/rom/下
 
 ### 修改代码
-需要安装python3，然后修改main.py。
+&emsp;&emsp;需要安装python3，然后修改main.py。
 rom_top_path改成rom顶层文件夹
 switch_top_path改成retroArch中rom的目标文件夹
 将os.rename那句代码放开注释，如果你需要重命名rom文件。
 
 ### 注意事项
-没有充分测试
+&emsp;&emsp;没有充分测试
 建议重命名前，把rom单独复制来做。
 
 # enjoy ^__^
